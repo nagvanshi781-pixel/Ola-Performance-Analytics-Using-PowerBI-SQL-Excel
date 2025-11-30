@@ -1,6 +1,7 @@
 create Database Ola;
 use Ola;
 -- 1. Retrieve all successful bookings:
+CREATE View Successful_Bookings AS
 SELECT * FROM bookings
 where Booking_Status = 'Success';
 
