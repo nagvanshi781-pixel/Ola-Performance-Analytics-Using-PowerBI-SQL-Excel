@@ -5,7 +5,8 @@ CREATE View Successful_Bookings AS
 SELECT * FROM bookings
 where Booking_Status = 'Success';
 
-
+-- 1. Retrieve all successful bookings:
+SELECT * FROM Successful_Bookings;
 -- 2. Find the average ride distance for each vehicle type:
 
 -- 3. Get the total number of canceled rides by customers:
