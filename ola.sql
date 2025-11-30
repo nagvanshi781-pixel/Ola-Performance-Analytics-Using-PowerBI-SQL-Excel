@@ -28,7 +28,7 @@ select * from Top_5_Customers;
 -- 5. Get the number of rides canceled by drivers due to personal and car-related issues:
  CREATE VIEW  Rides_cancelled_by_Drivers_P_C_Issues As
  SELECT COUNT(*) FROM bookings 
- WHERE cancelled_Rides_by_Driver = 'Personal & Car related issue';
+ WHERE Canceled_Rides_by_Driver = 'Personal & Car related issue';
 SELECT * FROM Rides_cancelled_by_Drivers_P_C_Issues;
 -- 6. Find the maximum and minimum driver ratings for Prime Sedan bookings:
 Create View Max_Min_Driver_Rating As
