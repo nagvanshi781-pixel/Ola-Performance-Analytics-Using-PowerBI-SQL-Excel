@@ -19,7 +19,10 @@ select COUNT(*) from bookings
 WHERE Booking_Status = 'Canceled by customer';
 select * from  Canceled_Rides_by_Customer;
 -- 4. List the top 5 customers who booked the highest number of rides:
-
+SELECT Customer_ID, COUNT(Booking_ID) as total_rides
+FROM bookings
+GROUP by Customer_ID
+OVER BY total_rides DESC LIMIT 5;
 -- 5. Get the number of rides canceled by drivers due to personal and car-related issues:
 
 -- 6. Find the maximum and minimum driver ratings for Prime Sedan bookings:
