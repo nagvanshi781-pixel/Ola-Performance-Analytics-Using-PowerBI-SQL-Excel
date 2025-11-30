@@ -12,6 +12,7 @@ CREATE View ride_distance_for_each_vehicle as
 SELECT Vehicle_Type,AVG(Ride_Distance)
 as avg_diatnce FROM bookings
 group by Vehicle_Type;
+select * from ride_distance_for_each_vehicle;
 -- 3. Get the total number of canceled rides by customers:
 
 -- 4. List the top 5 customers who booked the highest number of rides:
