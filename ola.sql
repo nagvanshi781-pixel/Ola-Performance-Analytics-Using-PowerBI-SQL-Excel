@@ -8,7 +8,7 @@ where Booking_Status = 'Success';
 -- 1. Retrieve all successful bookings:
 SELECT * FROM Successful_Bookings;
 -- 2. Find the average ride distance for each vehicle type:
-CREATE View ride distance for each vehicle
+CREATE View ride_distance for each vehicle
 SELECT Vehicle_Type,AVG(Ride_Distance)
 as avg_diatnce FROM bookings
 group by Vehicle_Type;
