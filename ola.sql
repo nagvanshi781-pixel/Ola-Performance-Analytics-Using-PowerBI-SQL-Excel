@@ -8,7 +8,10 @@ where Booking_Status = 'Success';
 -- 1. Retrieve all successful bookings:
 SELECT * FROM Successful_Bookings;
 -- 2. Find the average ride distance for each vehicle type:
-
+CREATE View ride distance for each vehicle
+SELECT Vehicle_Type,AVG(Ride_Distance)
+as avg_diatnce FROM bookings
+group by Vehicle_Type;
 -- 3. Get the total number of canceled rides by customers:
 
 -- 4. List the top 5 customers who booked the highest number of rides:
