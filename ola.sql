@@ -14,7 +14,10 @@ as avg_diatnce FROM bookings
 group by Vehicle_Type;
 select * from ride_distance_for_each_vehicle;
 -- 3. Get the total number of canceled rides by customers:
-
+CREATE View Canceled_Rides_by_Customer as
+select COUNT(*) from bookings
+WHERE Booking_Status = 'Canceled by customer';
+select * from  Canceled_Rides_by_Customer;
 -- 4. List the top 5 customers who booked the highest number of rides:
 
 -- 5. Get the number of rides canceled by drivers due to personal and car-related issues:
