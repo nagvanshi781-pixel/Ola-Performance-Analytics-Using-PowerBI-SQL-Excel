@@ -1,25 +1,15 @@
-# Dashboard Documentation and Overview
+## Ratings Dashboard
 
-## Introduction
-This documentation provides an overview of the dashboards created using Power BI, SQL, and Excel within the Ola Performance Analytics project.
+### Driver Ratings
+| Vehicle Type | Rating |
+|--------------|--------|
+| Sedan        | 4.5    |
+| SUV          | 4.2    |
+| Truck        | 4.7    |
 
-## Dashboard Features
-- **Interactive Visuals:** Users can interact with various components of the dashboard to filter data and gain insights.
-- **Real-time Data:** The dashboards are connected to live data sources, ensuring that the information displayed is always up to date.
-- **Analytical Tools:** Different analytical tools and features are available to help users understand trends and make informed decisions.
-
-## Key Metrics
-1. **Performance Metrics:** Overview of key performance indicators (KPIs) relevant to Ola operations.
-2. **Customer Insights:** Information and visualizations related to customer behavior and preferences.
-3. **Financial Analysis:** Analysis of revenue, costs, and profitability metrics.
-
-## Data Sources
-- **SQL Databases:** Data is pulled from various SQL databases that store comprehensive records of Ola operations.
-- **Excel Files:** Additional data analysis and reporting are supported using Excel spreadsheets linked to the dashboards.
-
-## User Guide
-- **Navigating the Dashboard:** Step-by-step guide to finding your way around the dashboard interface.
-- **Generating Reports:** Instructions on how to generate and export reports from the dashboard.
-
-## Conclusion
-This document serves as a comprehensive guide to understanding and utilizing the Ola Performance Analytics dashboards effectively. For further assistance, contact the support team.
+### Customer Ratings
+| Vehicle Type | Rating |
+|--------------|--------|
+| Sedan        | 4.6    |
+| SUV          | 4.3    |
+| Truck        | 4.8    |
