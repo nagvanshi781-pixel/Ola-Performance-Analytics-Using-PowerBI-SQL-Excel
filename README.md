@@ -73,7 +73,7 @@ SQL queries and views were created to answer key business questions:
 - Total Distance Travelled  
 
 🔗 **Dashboard Image:**  
-👉 [View Vehicle Type Dashboard](dashboards/vehicle_type_dashboard.png)
+👉 [View Vehicle Type Dashboard](dashboard/vehicle_type_dashboard.png)
 
 ---
 
@@ -86,7 +86,7 @@ SQL queries and views were created to answer key business questions:
 - Top 5 customers by booking value  
 
 🔗 **Dashboard Image:**  
-👉 [View Revenue Dashboard](dashboards/revenue_dashboard.png)
+👉 [View Revenue Dashboard](dashboard/revenue_dashboard.png)
 
 ---
 
@@ -104,7 +104,7 @@ SQL queries and views were created to answer key business questions:
 - Driver cancellations (personal & vehicle-related issues)  
 
 🔗 **Dashboard Image:**  
-👉 [View Cancellation Dashboard](dashboards/cancellation_dashboard.png)
+👉 [View Cancellation Dashboard](dashboard/cancellation_dashboard.png)
 
 ---
 
@@ -116,7 +116,7 @@ SQL queries and views were created to answer key business questions:
 - Average Driver Rating by Vehicle Type  
 
 🔗 **Dashboard Image:**  
-👉 [View Ratings Dashboard](dashboards/ratings_dashboard.png)
+👉 [View Ratings Dashboard](dashboard/ratings_dashboard.png)
 
 ---
 
