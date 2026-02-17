@@ -43,7 +43,7 @@ SQL queries and views were created to answer key business questions:
 - Rating analysis by service type  
 
 📂 SQL scripts available here:  
-👉 [`sql_queries/ola.sql`](sql_queries/ola.sql)
+👉 [`ola.sql'](ola.sql)
 
 ---
 
