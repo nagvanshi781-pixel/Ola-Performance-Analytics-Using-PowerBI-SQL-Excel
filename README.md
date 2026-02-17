@@ -59,7 +59,7 @@ SQL queries and views were created to answer key business questions:
 - Cancellation Rate  
 
 🔗 **Dashboard Image:**  
-👉 [View Overall Dashboard](dashboards/overall_dashboard.png)
+👉 [View Overall Dashboard](dashboard/overall_dashboard.png)
 
 ---
 
