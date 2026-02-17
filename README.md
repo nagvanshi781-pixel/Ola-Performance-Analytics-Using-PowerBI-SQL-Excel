@@ -2,7 +2,7 @@
 ### End-to-End Data Analytics using SQL & Power BI
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
 ![PowerBI](https://img.shields.io/badge/PowerBI-Visualization-yellow)
 
 ---
@@ -29,7 +29,7 @@ The solution uses **SQL for data modeling & analysis** and **Power BI for intera
   - Booking status categories
   - Vehicle-wise metrics
   - Rating summaries  
-- Loaded transformed data into **PostgreSQL** for analysis  
+- Loaded transformed data into **MySQL** for analysis  
 
 ---
 
@@ -222,7 +222,7 @@ Cash and UPI dominate transactions, while a small customer segment contributes a
 | Category | Tools |
 |--------|------|
 | Language | SQL |
-| Database | PostgreSQL |
+| Database | MySQL |
 | BI Tool | Power BI |
 | Data Prep | Excel |
 | Version Control | Git, GitHub |
