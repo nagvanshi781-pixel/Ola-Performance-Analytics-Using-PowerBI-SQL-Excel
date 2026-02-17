@@ -52,6 +52,31 @@ SQL queries and views were created to answer key business questions:
 ### 🧭 1. Overall Dashboard
 **Purpose:** High-level overview of Ola’s operational performance.
 
+**Key Metrics:**
+
+  - Total Bookings: 103,024
+
+  - Successful Bookings: 63,967
+
+  - Cancelled Bookings: 28,933
+
+  - Cancellation Rate: 28.08%
+
+  - Total Booking Value: 35M
+
+
+**Visual Insights:** 
+
+📈 Ride Volume Over Time: Shows daily booking fluctuations and demand patterns
+
+🥧 Booking Status Breakdown:
+
+**Success:**
+
+  - Cancelled by Customer
+
+  - Cancelled by Driver
+
 **KPIs:**
 - Total Bookings  
 - Successful Bookings  
@@ -61,16 +86,42 @@ SQL queries and views were created to answer key business questions:
 🔗 **Dashboard Image:**  
 👉 [View Overall Dashboard](dashboard/overall_dashboard.png)
 
+**Business Insight:**
+A cancellation rate of ~28% highlights a significant opportunity to improve customer experience and operational efficiency.
+
 ---
 
 ### 🚗 2. Vehicle Type Dashboard
 **Purpose:** Compare performance across vehicle categories.
 
-**Metrics:**
-- Total Booking Value  
-- Successful Booking Value  
-- Average Distance Travelled  
-- Total Distance Travelled  
+**Metrics by Vehicle Type:**
+
+- Total Booking Value:
+
+   -- Prime Sedan: ~8.30M
+
+   -- Prime SUV: ~7.93M
+
+   -- Prime Plus: ~8.05M
+
+   -- Mini: ~7.99M
+
+   -- Auto: ~8.09M
+
+   -- Bike / E-Bike: ~8.18M
+
+
+- Successful Booking Value: Ranges between 4.88M – 5.22M
+
+- Average Distance Travelled:
+
+   -- Prime vehicles: ~25 km
+
+   -- Auto & Bike: ~10–25 km
+
+**Business Insight:**
+Premium vehicle categories generate higher revenue, while Autos and Bikes handle shorter, high-frequency trips.
+
 
 🔗 **Dashboard Image:**  
 👉 [View Vehicle Type Dashboard](dashboard/vehicle_type_dashboard.png)
@@ -80,6 +131,15 @@ SQL queries and views were created to answer key business questions:
 ### 💰 3. Revenue Dashboard
 **Purpose:** Analyze revenue sources and customer contribution.
 
+**Key Metrics:**
+
+- Total Revenue: 35M
+
+- Top 5 Customers Contribution: ~3.26M combined
+
+- Highest Revenue Payment Method: Cash
+
+- Second Highest: UPI
 **Insights:**
 - Revenue by payment method (Cash, UPI, Cards)  
 - Daily revenue trend  
@@ -88,10 +148,23 @@ SQL queries and views were created to answer key business questions:
 🔗 **Dashboard Image:**  
 👉 [View Revenue Dashboard](dashboard/revenue_dashboard.png)
 
+**Business Insight:**
+Cash and UPI dominate transactions, while a small customer segment contributes a disproportionately high share of revenue.
+
 ---
 
 ### ❌ 4. Cancellation Dashboard
 **Purpose:** Identify reasons behind ride cancellations.
+
+**Key Metrics:**
+
+- Total Bookings: 103,024
+
+- Cancelled Bookings: 28,933
+
+- Successful Bookings: 63,967
+
+- Cancellation Rate: 28.08%
 
 **KPIs:**
 - Total Bookings  
@@ -106,14 +179,30 @@ SQL queries and views were created to answer key business questions:
 🔗 **Dashboard Image:**  
 👉 [View Cancellation Dashboard](dashboard/cancellation_dashboard.png)
 
+**Business Insight:**
+ - Customer-initiated cancellations are higher than driver cancellations, indicating scope for improving wait times and service reliability.
+
 ---
 
 ### ⭐ 5. Ratings Dashboard
 **Purpose:** Measure service quality and customer satisfaction.
 
 **Metrics:**
-- Average Customer Rating by Vehicle Type  
-- Average Driver Rating by Vehicle Type  
+
+- Average Customer Rating: ~4.00
+
+- Average Driver Rating: ~4.00
+
+
+**Ratings by Vehicle Type:**
+
+- Prime Sedan: ~4.00
+
+- Prime SUV: ~4.01
+
+- Prime Plus: ~4.00
+
+- Mini / Auto / Bike: ~3.98 – 4.00
 
 🔗 **Dashboard Image:**  
 👉 [View Ratings Dashboard](dashboard/ratings_dashboard.png)
@@ -145,4 +234,4 @@ SQL queries and views were created to answer key business questions:
 **Prince**  
 📧 Email: nagvanshi781@gmail.com  
 🔗 GitHub: https://github.com/nagvanshi781-pixel  
-🔗 LinkedIn: https://www.linkedin.com/in/prince-soni  
+🔗 LinkedIn: https://www.linkedin.com/in/prince-soni-398b6a225
